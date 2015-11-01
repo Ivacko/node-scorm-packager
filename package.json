@@ -1,0 +1,20 @@
+{
+  "name": "node-scorm-package-creator",
+  "version": "0.0.1",
+  "description": "scorm package generator",
+  "main": "gulp.js",
+  "scripts": {
+    "test": "\u001b[A\u001b[B"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://ikucerak@bitbucket.org/ikucerak/node-scorm-package-creator.git"
+  },
+  "keywords": [
+    "scorm",
+    "manifest",
+    "package"
+  ],
+  "author": "ivan kucerak",
+  "license": "ISC"
+}
