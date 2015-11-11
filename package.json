@@ -1,7 +1,7 @@
 {
-  "name": "node-scorm-package-creator",
+  "name": "node-scorm-packager",
   "version": "0.0.1",
-  "description": "scorm package generator",
+  "description": "SCORM package generator",
   "main": "index.js",
   "scripts": {
     "test": "\u001b[A\u001b[B"
@@ -16,5 +16,9 @@
     "package"
   ],
   "author": "Ivan Kucerak <ivacko@ivacko.eu>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-prompt": "^0.1.2"
+  }
 }
