@@ -20,6 +20,7 @@
   "dependencies": {
     "gulp": "^3.9.0",
     "gulp-prompt": "^0.1.2",
+    "jsonschema": "^1.0.2",
     "xmlbuilder": "^4.1.0"
   }
 }
