@@ -18,6 +18,7 @@
   "author": "Ivan Kucerak <ivacko@ivacko.eu>",
   "license": "ISC",
   "dependencies": {
+    "archiver": "^0.16.0",
     "fs-extra": "^0.26.2",
     "gulp": "^3.9.0",
     "gulp-prompt": "^0.1.2",
