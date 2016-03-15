@@ -1,6 +1,7 @@
 ## Documentation
 
 Creates SCORM package from source directory.
+
 * Automatic .zip file creation is not implemented yet.
 
 ## Initialization Options
