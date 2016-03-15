@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://ikucerak@bitbucket.org/ikucerak/node-scorm-package-creator.git"
+    "url": "https://ikucerak@bitbucket.org/ikucerak/node-scorm-packager.git"
   },
   "keywords": [
     "lms",
@@ -13,7 +13,7 @@
     "manifest",
     "package"
   ],
-  "author": "Ivan Kucerak <ivacko@ivacko.eu>",
+  "author": "Ivan Kucerak <dev@ivacko.eu>",
   "license": "ISC",
   "dependencies": {
     "archiver": "^0.16.0",
