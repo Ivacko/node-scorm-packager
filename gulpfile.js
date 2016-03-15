@@ -10,8 +10,8 @@ gulp.task('default', function() {
     identifier: '00',
     masteryScore: 80,
     startingPage: 'index.html',
-    source: 'D:/BACKUP1/test/000000 - dynamo-client-1.2.2/Project development/dynamo',
-    destination: 'D:/BACKUP1/test/000000 - dynamo-client-1.2.2/Project development/dynamo'
+    source: '',
+    destination: ''
   })
 });
 
@@ -23,20 +23,7 @@ gulp.task('scorm2004', function() {
     identifier: '00',
     masteryScore: 80,
     startingPage: 'index.html',
-    source: 'D:/BACKUP1/test/000000 - dynamo-client-1.2.2/Project development/dynamo',
-    destination: 'D:/BACKUP1/test/000000 - dynamo-client-1.2.2/Project development/dynamo'
-  })
-});
-
-gulp.task('test', function() {
-  scopackage({
-    version: '2004 ath Edition',
-    organization: 'Test Company',
-    title: 'Test Course',
-    identifier: '00',
-    masteryScore: 80,
-    startingPage: 'index.html',
-    source: 'D:/BACKUP1/test/000000 - dynamo-client-1.2.2/Project development/dynamo',
-    destination: 'D:/BACKUP1/test/000000 - dynamo-client-1.2.2/Project development/dynamo'
+    source: '',
+    destination: ''
   })
 });
