@@ -3,14 +3,12 @@
   "version": "0.0.1",
   "description": "SCORM package generator",
   "main": "index.js",
-  "scripts": {
-    "test": "\u001b[A\u001b[B"
-  },
   "repository": {
     "type": "git",
     "url": "https://ikucerak@bitbucket.org/ikucerak/node-scorm-package-creator.git"
   },
   "keywords": [
+    "lms",
     "scorm",
     "manifest",
     "package"
