@@ -1,6 +1,6 @@
 var
   gulp  = require('gulp'),
-  scopackage = require('./lib/scopackage.js');
+  scopackage = require('./lib/package.js');
 
 gulp.task('default', function() {
   scopackage({

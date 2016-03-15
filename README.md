@@ -1,25 +1,32 @@
 ## Documentation
 
-Creates .zip packages for SCORM 1.2 and SCORM 2004.
+Creates SCORM package from source directory.
+* Automatic .zip file creation is not implemented yet.
 
 ## Initialization Options
 
-1 - SCORM version  
-2 - organization
-3 - course title
-4 - identifier (uses 0 and course title if left empty)
-5 - mastery score (80 if left empty)
-6 - starting page (uses index.html if left empty)
-7 - path to source files
-8 - path to where the scorm package should be stored
+* `version` {String} Version of schema e.g. 1.2, 2004 4rd Edition
+* `organization` {String} Company name
+* `title` {String}
+* `identifier` {String} Uses 0 and course title if left empty
+* `masteryScore` {Number} Uses 80 if left empty
+* `startingPage` {String} Uses index.html if left empty
+* `source` {String} The path to files from which the package will be created
+* `destination` {String} The path to where the package will be created
 
-{
-    version: String,
-    organization: String,
-    title: String,
-    identifier: String,
-    masteryScore: Number,
-    startingPage: String,
-    source: String,
-    destination: String
-}
+## USAGE
+
+```javascript
+var scopackage = require('node-scorm-packager');
+
+scopackage({
+  version: '2004 4th Edition',
+  organization: 'Test Company',
+  title: 'Test Course',
+  identifier: '00',
+  masteryScore: 80,
+  startingPage: 'index.html',
+  source: 'path to your files',
+  destination: 'path to where the package should be saved'
+});
+```
