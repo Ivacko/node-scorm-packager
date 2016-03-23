@@ -1,6 +1,6 @@
 {
   "name": "node-scorm-packager",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "SCORM package generator",
   "main": "index.js",
   "repository": {
