@@ -13,8 +13,15 @@
     "manifest",
     "package"
   ],
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/index.js",
   "author": "Ivan Kucerak <dev@ivacko.eu>",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha test"
+  },
   "dependencies": {
     "archiver": "^0.16.0",
     "fs-extra": "^0.26.2",
@@ -25,6 +32,7 @@
     "xmlbuilder": "^4.1.0"
   },
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "mocha": "^2.4.5"
   }
 }

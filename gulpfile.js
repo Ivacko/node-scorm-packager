@@ -1,6 +1,6 @@
 var
   gulp  = require('gulp'),
-  scopackage = require('./lib/package.js');
+  scopackage = require('./lib/index.js');
 
 gulp.task('default', function() {
   scopackage({
@@ -10,8 +10,10 @@ gulp.task('default', function() {
     identifier: '00',
     masteryScore: 80,
     startingPage: 'index.html',
-    source: '',
+    source: 'test/mocks',
     destination: ''
+  }, function(msg) {
+    console.log(msg);
   })
 });
 
@@ -23,7 +25,9 @@ gulp.task('scorm2004', function() {
     identifier: '00',
     masteryScore: 80,
     startingPage: 'index.html',
-    source: '',
+    source: 'test/mocks',
     destination: ''
+  }, function(msg) {
+    console.log(msg)
   })
 });
