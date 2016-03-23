@@ -1,8 +1,8 @@
 {
   "name": "node-scorm-packager",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "SCORM package generator",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://ikucerak@bitbucket.org/ikucerak/node-scorm-packager.git"
@@ -16,7 +16,6 @@
   "files": [
     "lib"
   ],
-  "main": "./lib/index.js",
   "author": "Ivan Kucerak <dev@ivacko.eu>",
   "license": "MIT",
   "scripts": {
