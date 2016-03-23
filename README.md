@@ -29,5 +29,7 @@ scopackage({
   startingPage: 'index.html',
   source: 'path to your files',
   destination: 'path to where the package should be saved'
+}, function(msg){
+  console.log(msg);
 });
 ```
