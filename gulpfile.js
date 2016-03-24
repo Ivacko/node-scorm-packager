@@ -22,7 +22,22 @@ gulp.task('scorm2004', function() {
     version: '2004 4th Edition',
     organization: 'Test Company',
     title: 'Test Course',
-    identifier: '00',
+    identifier: '00 dfdgfdf',
+    masteryScore: 80,
+    startingPage: 'index.html',
+    source: 'test/mocks',
+    destination: ''
+  }, function(msg) {
+    console.log(msg)
+  })
+});
+
+gulp.task('scorm20043rdEdition', function() {
+  scopackage({
+    version: '2004 3rd Edition',
+    organization: 'Test Company',
+    title: 'Test Course',
+    identifier: '00 dfdgfdf',
     masteryScore: 80,
     startingPage: 'index.html',
     source: 'test/mocks',
