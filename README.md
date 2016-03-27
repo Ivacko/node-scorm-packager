@@ -2,12 +2,18 @@
 
 Creates SCORM package from source directory.
 
-* Only SCORM 1.2, SCORM 2004 3rd Edition and SCORM 2004 4th Edition is supported.
+* Supported are:
+    * SCORM 1.2
+    * SCORM 2004 3rd Edition
+    * SCORM 2004 4th Edition
 * Automatic .zip file creation is not implemented yet.
 
 ## Initialization Options
 
-* `version` {String} Version of schema. Supported are: '1.2', '2004 3rd Edition', '2004 4th Edition'
+* `version` {String} Version of schema. Available options:
+    * '1.2'
+    * '2004 3rd Edition'
+    * '2004 4th Edition'
 * `organization` {String} Company name
 * `title` {String}
 * `identifier` {String} Uses 0 and course title if left empty
