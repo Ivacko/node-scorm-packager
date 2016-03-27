@@ -1,6 +1,7 @@
 ## Documentation
 
 Creates SCORM package from source directory.
+
 * Only SCORM 1.2, SCORM 2004 3rd Edition and SCORM 2004 4th Edition is supported.
 * Automatic .zip file creation is not implemented yet.
 
