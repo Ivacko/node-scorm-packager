@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://ikucerak@bitbucket.org/ikucerak/node-scorm-packager.git"
+    "url": "https://github.com/Ivacko/node-scorm-packager.git"
   },
   "keywords": [
     "lms",
