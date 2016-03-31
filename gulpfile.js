@@ -1,5 +1,5 @@
 var
-  gulp  = require('gulp'),
+  gulp = require('gulp'),
   scopackage = require('./lib/index.js');
 
 gulp.task('default', function(done) {

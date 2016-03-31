@@ -40,3 +40,24 @@ scopackage({
   console.log(msg);
 });
 ```
+
+or as build task e.g. gulp:
+```javascript
+var gulp = require('gulp'),
+    scopackage = require('node-scorm-packager');
+
+gulp.task('scorm2004', function(done) {
+  scopackage({
+    version: '2004 4th Edition',
+    organization: 'Test Company',
+    title: 'Test Course',
+    identifier: '00',
+    masteryScore: 80,
+    startingPage: 'index.html',
+    source: 'path to your files',
+    destination: 'path to where the package should be saved'
+  }, function() {
+    done();
+  })
+});
+```
